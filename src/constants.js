@@ -22,7 +22,7 @@ import scikitlearnLogo from './assets/tech_logo/scikit-learn.png';
 
 
 // Experience Section Logo's
-import hyperbotsLogo from './assets/company_logo/hyperbots.png';
+import hyperbotsLogo from './assets/company_logo/Hyperbots.png';
 
 
 // Education Section Logo's
