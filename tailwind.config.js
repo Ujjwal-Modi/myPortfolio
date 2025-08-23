@@ -26,5 +26,5 @@ export default {
     },
   },
   // eslint-disable-next-line no-undef
-  plugins: [ require ('tailwind-scrollbar') ],
+  plugins: [ ],
 };
