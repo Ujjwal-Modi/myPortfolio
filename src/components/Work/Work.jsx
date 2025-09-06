@@ -68,21 +68,30 @@ const Work = () => {
       {selectedProject && (
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-90 p-4">
           <div className="bg-gray-900 max-h-[90vh] rounded-xl shadow-2xl lg:w-full w-[90%] max-w-3xl overflow-hidden relative">
-            <div className="flex justify-end p-4">
-              <button
+            {/* <div className="flex justify-end p-4"> */}
+              {/* <button */}
+                {/* onClick={handleCloseModal} */}
+                {/* className="text-white text-3xl font-bold hover:text-purple-500" */}
+              {/* > */}
+                {/* &times; */}
+              {/* </button> */}
+            {/* </div> */}
+
+            <div className="flex flex-col h-full ">
+
+              <div className="lg:p-8 p-6">
+                 <div className="flex items-center justify-between mb-4">
+                  <h3 className="lg:text-3xl font-bold text-white mb-4 text-md">
+                  {selectedProject.title}
+                </h3>
+                <button
                 onClick={handleCloseModal}
                 className="text-white text-3xl font-bold hover:text-purple-500"
               >
                 &times;
               </button>
-            </div>
-
-            <div className="flex flex-col h-full ">
-
-              <div className="lg:p-8 p-6">
-                <h3 className="lg:text-3xl font-bold text-white mb-4 text-md">
-                  {selectedProject.title}
-                </h3>
+              </div>
+                
                 <p className="text-gray-400 mb-6 lg:text-base text-xs">
                   {selectedProject.description}
                 </p>
