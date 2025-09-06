@@ -81,7 +81,7 @@ const Work = () => {
 
               <div className="lg:p-8 p-6">
                  <div className="flex items-center justify-between mb-4">
-                  <h3 className="lg:text-3xl font-bold text-white mb-4 text-md">
+                  <h3 className="lg:text-3xl font-bold text-white text-md">
                   {selectedProject.title}
                 </h3>
                 <button
