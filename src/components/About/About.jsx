@@ -43,7 +43,7 @@ and NLP, while currently expanding skills in web development with React.
           </p>
           {/* Resume Button */}
           <a
-            href="https://drive.google.com/file/d/1ygrJe_XRd_A6GCT3vlFlcSMXw0MGjjQp/view?usp=sharing"
+            href="https://drive.google.com/open?id=16p9soQfbXZ4Y6eTkJ9lyFVYBokbneOKY&usp=drive_copy"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105"
