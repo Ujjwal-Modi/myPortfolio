@@ -1,5 +1,6 @@
 import React from "react";
-import { education } from "../../constants"; // Import the education data
+import { education } from "../../constants";
+import { HiArrowLongRight } from "react-icons/hi2";
 
 const Education = () => {
   return (
@@ -33,13 +34,14 @@ const Education = () => {
             <div key={edu.id} className={`flex flex-row mb-16 `}>
               <div class="w-auto">
                 {/* Timeline Circle */}
-                <div className="hidden sm:block transform -translate-x-1/2 bg-gray-400 border-4 border-[#8245ec] w-12 h-12 sm:w-16 sm:h-16 rounded-full flex justify-center items-center z-10">
-                  <img
+                <div className="hidden sm:block w-12 h-12 sm:w-16 sm:h-16 rounded-full flex justify-center items-center z-10">
+                  {/* <img 
                     src={edu.img}
                     alt={edu.school}
                     className="w-full h-full object-cover rounded-full"
-                  />
+                  />*/}<HiArrowLongRight size={60} color="white" className="-ml-2"/>
                 </div>
+                
               </div>
               {/* Content Section */}
               <div
