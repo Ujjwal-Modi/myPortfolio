@@ -1,6 +1,7 @@
 import React from "react";
 import { education } from "../../constants";
 import { HiArrowLongRight } from "react-icons/hi2";
+import { IoSchool } from "react-icons/io5";
 
 const Education = () => {
   return (
@@ -19,14 +20,6 @@ const Education = () => {
       </div>
 
       <div className="flex flex-row justify-center">
-        {/* Vertical line  */}
-        <div
-          className="
-                hidden sm:block
-                w-1 bg-white 
-                "
-        ></div>
-        
         {/* Education Timeline */}
         <div className="flex flex-col items-center">
           {/* Education Entries */}
@@ -34,14 +27,20 @@ const Education = () => {
             <div key={edu.id} className={`flex flex-row mb-16 `}>
               <div class="w-auto">
                 {/* Timeline Circle */}
-                <div className="hidden sm:block w-12 h-12 sm:w-16 sm:h-16 rounded-full flex justify-center items-center z-10">
-                  {/* <img 
-                    src={edu.img}
-                    alt={edu.school}
-                    className="w-full h-full object-cover rounded-full"
-                  />*/}<HiArrowLongRight size={60} color="white" className="-ml-2"/>
+                <div className="hidden sm:block transform -translate-x-1/2 w-12 rounded-full flex justify-center items-center z-10">
+                  <IoSchool
+                    size={40}
+                    color="purple"
+                    className="block ml-[7px]"
+                  />
                 </div>
-                
+                {/* Vertical line  */}
+                <div
+                  className="
+                hidden sm:block
+                w-1 bg-white h-full
+                "
+                ></div>
               </div>
               {/* Content Section */}
               <div
