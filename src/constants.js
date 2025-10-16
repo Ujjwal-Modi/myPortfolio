@@ -18,22 +18,28 @@ import tensorflowLogo from './assets/tech_logo/tensorflow.png';
 import MatplotlibLogo from './assets/tech_logo/Matplotlib.png';
 import numpyLogo from './assets/tech_logo/numpy.png';
 import scikitlearnLogo from './assets/tech_logo/scikit-learn.png';
-
-
-
 // Experience Section Logo's
 import hyperbotsLogo from './assets/company_logo/Hyperbots.png';
-
-
 // Education Section Logo's
 import HPCAlogo from './assets/education_logo/HPCA.png';
 import CPAlogo from './assets/education_logo/CPA.png';
 import KIITlogo from './assets/education_logo/KIIT.png';
-
 // Project Section Logo's
 import barGraphLogo from './assets/work_logo/bar_graph.png';
 import currencyConvertorLogo from './assets/work_logo/currencyConvertor.png';
+// Certificate Section Logo's
+import udemyLogo from './assets/certificate_logo/udemy_logo.jpeg';
 
+export const Certificate = [
+  {
+    title: 'Machine Learning A-Z: AI, Python & R + ChatGPT Prize [2025]',
+    description:'Mastered Machine Learning in Python through a hands-on course covering data preprocessing, classification, regression, PCA, NLP, deep learning (CNNs), reinforcement learning, and hyperparameter tuning. Gained practical skills in model selection, ensemble techniques, and applying ML to real-world business and personal projects.',
+    skill: ["Python", "Scikit-Learn", "Numpy", 'Matplotlib', 'TensorFlow', 'NLP'],
+    issuer: 'Udemy',
+    issuingDate: 'Feb 2025',
+    certificateUrl: "https://www.udemy.com/certificate/UC-19cb5f20-9249-42ef-b704-50372c4ad668/",
+    img: udemyLogo
+  }]
 
 export const SkillsInfo = [
   {
