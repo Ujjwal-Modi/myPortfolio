@@ -153,7 +153,7 @@ export const SkillsInfo = [
       image: currencyConvertorLogo,
       tags: ["HTML", "CSS", "JavaScript"],
       github: "https://github.com/Ujjwal-Modi/Currency-Converter",
-      webapp: "https://currency-converter-chi-two.vercel.app/",
+      webapp: "https://currencyconverter.ujjwalmodi.in/",
     },{
       id: 2,
       title: "Ai Chatbot - Perplexity 2.0",
@@ -161,6 +161,6 @@ export const SkillsInfo = [
       image: aiChatbotLogo,
       tags: ["React JS", "Next JS", "Fast API", "LangGraph", "Genai API"],
       github: "https://github.com/Ujjwal-Modi/aiChatbot",
-      webapp: "https://ai-chatbot-chi-pied.vercel.app/",
+      webapp: "https://aichatbot.ujjwalmodi.in/",
     }
   ];  
