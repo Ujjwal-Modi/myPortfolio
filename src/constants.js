@@ -29,6 +29,7 @@ import barGraphLogo from './assets/work_logo/bar_graph.png';
 import currencyConvertorLogo from './assets/work_logo/currencyConvertor.png';
 // Certificate Section Logo's
 import udemyLogo from './assets/certificate_logo/udemy_logo.jpeg';
+import aiChatbotLogo from './assets/work_logo/aiChatbot.png';
 
 export const Certificate = [
   {
@@ -153,5 +154,13 @@ export const SkillsInfo = [
       tags: ["HTML", "CSS", "JavaScript"],
       github: "https://github.com/Ujjwal-Modi/Currency-Converter",
       webapp: "https://currency-converter-chi-two.vercel.app/",
+    },{
+      id: 2,
+      title: "Ai Chatbot - Perplexity 2.0",
+      description:"A modern, responsive AI chat interface with integrated web search functionality. Perplexity 2.0 provides a clean UI similar to Perplexity.ai, combining conversational AI with real-time search capabilities",
+      image: aiChatbotLogo,
+      tags: ["React JS", "Next JS", "Fast API", "LangGraph", "Genai API"],
+      github: "https://github.com/Ujjwal-Modi/aiChatbot",
+      webapp: "https://ai-chatbot-chi-pied.vercel.app/",
     }
   ];  
