@@ -26,7 +26,7 @@ import CPAlogo from './assets/education_logo/CPA.png';
 import KIITlogo from './assets/education_logo/KIIT.png';
 // Project Section Logo's
 import barGraphLogo from './assets/work_logo/bar_graph.png';
-import currencyConvertorLogo from './assets/work_logo/currencyConvertor.png';
+import findWhatYouEatLogo from './assets/work_logo/findwhatyoueat.png';
 // Certificate Section Logo's
 import udemyLogo from './assets/certificate_logo/udemy_logo.jpeg';
 import aiChatbotLogo from './assets/work_logo/aiChatbot.png';
@@ -147,13 +147,12 @@ export const SkillsInfo = [
     },
     {
       id: 1,
-      title: "Currency Converter",
-      description:
-        "A responsive web-based currency converter deployed on Vercel, enabling real-time conversion between global currencies using live exchange-rate API data. The codebase, hosted on GitHub, demonstrates API integration, clean UI design, and client-side data handling.",
-      image: currencyConvertorLogo,
-      tags: ["HTML", "CSS", "JavaScript"],
-      github: "https://github.com/Ujjwal-Modi/Currency-Converter",
-      webapp: "https://currencyconverter.ujjwalmodi.in/",
+      title: "Find What You Eat",
+      description:"A recipe discovery web application that allows users to search for recipes based on ingredients they have on hand. It integrates with the Spoonacular API to provide a wide range of recipes, complete with nutritional information and cooking instructions.",
+      image: findWhatYouEatLogo,
+      tags: ["React", "Tailwind", "JavaScript", "Spoonacular API"],
+      github: "https://github.com/Ujjwal-Modi/Find-What-You-Eat",
+      webapp: "https://findwhatyoueat.ujjwalmodi.in/",
     },{
       id: 2,
       title: "Ai Chatbot - Perplexity 2.0",
