@@ -26,7 +26,7 @@ import CPAlogo from './assets/education_logo/CPA.png';
 import KIITlogo from './assets/education_logo/KIIT.png';
 // Project Section Logo's
 import barGraphLogo from './assets/work_logo/bar_graph.png';
-import findWhatYouEatLogo from './assets/work_logo/findwhatyoueat.png';
+import findWhatYouEatLogo from './assets/work_logo/findWhatYouEat.png';
 // Certificate Section Logo's
 import udemyLogo from './assets/certificate_logo/udemy_logo.jpeg';
 import aiChatbotLogo from './assets/work_logo/aiChatbot.png';

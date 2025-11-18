@@ -17,7 +17,7 @@ const Experience = () => {
       </div>
 
         {/* Experience Entries */}
-        {experiences.map((experience, index) => (
+        {experiences.map((experience,) => (
           <div
             key={experience.id}
             className={`flex flex-col sm:flex-row items-center mb-16`}
