@@ -27,6 +27,7 @@ import KIITlogo from './assets/education_logo/KIIT.png';
 // Project Section Logo's
 import barGraphLogo from './assets/work_logo/bar_graph.png';
 import findWhatYouEatLogo from './assets/work_logo/findWhatYouEat.png';
+import buynotcryLogo from './assets/work_logo/buynotcry.png';
 // Certificate Section Logo's
 import udemyLogo from './assets/certificate_logo/udemy_logo.jpeg';
 import aiChatbotLogo from './assets/work_logo/aiChatbot.png';
@@ -152,7 +153,7 @@ export const SkillsInfo = [
       image: findWhatYouEatLogo,
       tags: ["React", "Tailwind", "JavaScript", "Spoonacular API"],
       github: "https://github.com/Ujjwal-Modi/Find-What-You-Eat",
-      webapp: "https://findwhatyoueat.ujjwalmodi.in/",
+      webapp: "https://find-what-you-eat-git-main-ujjwal-modis-projects.vercel.app/",
     },{
       id: 2,
       title: "Ai Chatbot - Perplexity 2.0",
@@ -160,6 +161,14 @@ export const SkillsInfo = [
       image: aiChatbotLogo,
       tags: ["React JS", "Next JS", "Fast API", "LangGraph", "Genai API"],
       github: "https://github.com/Ujjwal-Modi/aiChatbot",
-      webapp: "https://aichatbot.ujjwalmodi.in/",
+      webapp: "https://ai-chatbot-chi-pied.vercel.app/",
+    },{
+      id: 3,
+      title: "BuyNotCry",
+      description:"Built a responsive multi-category e-commerce platform featuring user authentication, product search, shopping cart, wishlist management, pagination, and a modern user interface to enhance the online shopping experience.",
+      image: buynotcryLogo,
+      tags: ["React JS","React Router", "Tailwind CSS", "JavaScript", "DummyJSON API", "Vercel"],
+      github: "https://github.com/Ujjwal-Modi/BuyNotCry",
+      webapp: "https://buy-not-cry.vercel.app/",
     }
   ];  
