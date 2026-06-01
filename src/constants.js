@@ -28,6 +28,7 @@ import KIITlogo from './assets/education_logo/KIIT.png';
 import barGraphLogo from './assets/work_logo/bar_graph.png';
 import findWhatYouEatLogo from './assets/work_logo/findWhatYouEat.png';
 import buynotcryLogo from './assets/work_logo/buynotcry.png';
+import webscrapperLogo from './assets/work_logo/webscrapper.png';
 // Certificate Section Logo's
 import udemyLogo from './assets/certificate_logo/udemy_logo.jpeg';
 import aiChatbotLogo from './assets/work_logo/aiChatbot.png';
@@ -170,5 +171,14 @@ export const SkillsInfo = [
       tags: ["React JS","React Router", "Tailwind CSS", "JavaScript", "DummyJSON API", "Vercel"],
       github: "https://github.com/Ujjwal-Modi/BuyNotCry",
       webapp: "https://buy-not-cry.vercel.app/",
+    },{
+      id: 4,
+      title: "Prospect Research Agent",
+      description:"Created a full-stack lead intelligence platform that scrapes company websites, extracts contact details, and leverages Large Language Models to generate structured business insights, customer personas, pain points, and personalized outreach suggestions. Implemented intelligent page discovery, sitemap support, REST APIs, and cloud deployment for end-to-end automation of prospect research workflows.",
+      image: webscrapperLogo,
+      tags: ["React.js", "FastAPI", "Python", "Groq LLM", "BeautifulSoup", "Render", "Vercel"],
+      github: "https://github.com/Ujjwal-Modi/WebsiteScrapper",
+      webapp: "https://website-scrapper-umber.vercel.app/",
     }
+
   ];  
