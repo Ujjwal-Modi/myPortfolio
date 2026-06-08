@@ -29,6 +29,7 @@ import barGraphLogo from './assets/work_logo/bar_graph.png';
 import findWhatYouEatLogo from './assets/work_logo/findWhatYouEat.png';
 import buynotcryLogo from './assets/work_logo/buynotcry.png';
 import webscrapperLogo from './assets/work_logo/webscrapper.png';
+import outreachPipelineLogo from './assets/work_logo/outreachpipline.png';
 // Certificate Section Logo's
 import udemyLogo from './assets/certificate_logo/udemy_logo.jpeg';
 import aiChatbotLogo from './assets/work_logo/aiChatbot.png';
@@ -179,6 +180,14 @@ export const SkillsInfo = [
       tags: ["React.js", "FastAPI", "Python", "Groq LLM", "BeautifulSoup", "Render", "Vercel"],
       github: "https://github.com/Ujjwal-Modi/WebsiteScrapper",
       webapp: "https://website-scrapper-umber.vercel.app/",
+    },{
+      id: 5,
+      title: "Automated Outreach Pipeline",
+      description:"Automated Outreach Pipeline automates the entire outbound prospecting workflow—from discovering target companies and decision-makers to enriching contact information and executing outreach campaigns. The platform eliminates repetitive manual research and enables scalable, efficient lead generation from a single input.",
+      image: outreachPipelineLogo,
+      tags: ["React", "Vite", "Tailwind CSS", "Axios", "FastAPI", "Python", "REST APIs", "Third-Party API Integration"],
+      github: "https://github.com/Ujjwal-Modi/Outreach-Pipeline",
+      webapp: "https://outreach-pipeline-ten.vercel.app/",
     }
 
   ];  
